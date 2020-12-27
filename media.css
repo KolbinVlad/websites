@@ -1,0 +1,40 @@
+@media(max-width: 575px){
+	.meny{
+		position: static;
+	}
+	.meny a{
+		width: 100%;
+		padding: 20px 0;
+	}
+	#header{
+		margin-top:0;
+		padding: 100px 10px;
+		background-size: cover;
+		background-position: center center;
+		min-height: 300px;
+		width: 100%;
+		margin-left: 20px;
+	}
+	#about img{
+		float: none;
+		max-width:200px; 
+	}
+	#about {
+		max-width:100%;
+		padding-left: 40px;
+	}
+	.member{
+		display: block;
+		width: 90%;
+	}
+	#prices{
+		width: 100%;
+	}
+	#prices .tarif{
+		display: block;
+		width: 85%;
+	}
+	body{
+		width: 400px;
+	}
+}
