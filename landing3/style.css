@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Noto+Sans&display=swap');
+body,html{
+	margin: 0;
+	padding: 0;
+	font-family: 'Noto Sans', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+.page-header{
+	display: flex;
+	margin-top: 10px;
+}
+.main-menu{
+	flex-grow: 1;
+}
+.main-menu-list{
+	list-style-type: none;
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
+}
+.main-menu-list a{
+	font-size: 30px;
+	line-height: 41px;
+	color:#2A3D8F;
+}
+.main-menu-list a:hover{
+	color:#3893cc;
+}
+.page-footer{
+	display: flex;
+	justify-content: space-evenly;
+	padding: 35px 0;
+	color:black;
+	ba
+}
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+.hashtag{
+	padding: 0;
+	margin: 0;
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: 700;
+}
+.footer-social{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+}
+.social-button{
+	margin: 0 10px;
+}
+.copyright{
+	padding: 0;
+	margin: 0;
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: 400;
+}
+.footer-wrapper{
+	background-color: #B5D4C5;
+}
+figcaption{
+	background-color: grey;
+	text-align: center;
+	padding: 4px;
+	color: white;
+	font-size: 17px;
+}
+h2{
+	color:#2A3D8F;
+	font-size: 36px;
+	line-height: 49px;
+}
+h3{
+	font-size: 30px;
+	line-height: 41px;
+}
+.slogan{
+	height: 558px;
+	background-image: url(img/innsbruck1.png);
+	background-color: #dbe8f7;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.slogan h1{
+	margin: 0;
+	padding-top: 240px;
+	font-size: 60px;
+	color: white;
+}
+.wrapper{
+	display: flex;
+	justify-content: space-between;
+}
+.about-numbers-list{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	padding-left: 20px;
+}
+.about-numbers-list li:before{
+	content:"✓" ;
+	margin-right: 3px;
+}
+.marketing{
+	display: flex;
+	flex-direction: column;
+	background-image: url(img/skier.png);
+	background-position: center right;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 30%;
+}
+.marketing p{
+	margin: 0;
+	padding: 5px;
+	font-size: 2vw;
+	line-height: 33px;
+}
+.marketing a{
+	display: inline-block;
+	margin-top: 60px;
+	padding: 5px 10px;
+	background-color: white;
+	opacity: 0.7;
+	align-self: flex-end;
+	color:black;
+}
+.about-weather-graph{
+	border: thin #c0c0c0 solid;
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+}
+.about-weather-graph img{
+	height: 620px;
+}
+.gallery-list{
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.gallery-item{
+	display: flex;
+	flex-direction: row;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 10px;
+	align-items: center;
+	min-height: 256px;
+	text-align: center;
+	background-color: #B5D4C5;
+	color: white;
+}
+.gallery-item h3{
+	text-transform: uppercase;
+	flex-grow: 1;
+}
+.transfer td,th{
+	border: 1px solid #333;
+	padding: 5px;
+	text-align: center;
+	width: 25%;
+}
+.transfer{
+	border-collapse: collapse;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+.transfer thead{
+	background-color: #090075; 
+	color: white;
+}
